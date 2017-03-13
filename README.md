@@ -1,7 +1,7 @@
 # Java-Socket-data-transfer
 Use Java Socket do some basic data transfer(TCP&amp;UDP).
 
-##Steps: 
+###Steps: 
 | Client | Server |
 | ------ | ------ |
 ||Creat TCP socket and print port #|
@@ -13,6 +13,16 @@ Use Java Socket do some basic data transfer(TCP&amp;UDP).
 ||Receive input_string|
 ||Send reversed input_string(UDP)|
 |Receive reversed input_string| |
+
+
+```sequence
+Client->Server: req_code (TCP）
+Note right of Server: Check the req_code
+Server-->Client: UDP port number to client
+Client->Server：input_string(UDP)
+Note right of Server: reverse input_string
+Server-->Client: send reversed input_string
+```
 
 
 use `make` command to compile the program.
