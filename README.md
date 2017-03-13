@@ -27,6 +27,9 @@ Server->Client: send reversed input_string
 
 
 
+
+
+
 use `make` command to compile the program.
 
 to run server, call: ./server <req_code>
