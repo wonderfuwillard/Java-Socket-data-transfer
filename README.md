@@ -15,13 +15,14 @@ Use Java Socket do some basic data transfer(TCP&amp;UDP).
 |Receive reversed input_string| |
 
 
+###UML diagram(seems not support)
 ```sequence
 Client->Server: req_code (TCP）
 Note right of Server: Check the req_code
-Server->Client: UDP port number to client
+Server->Client: UDP port number(UDP)
 Client->Server:input_string(UDP)
 Note right of Server: reverse input_string
-Server->Client: send reversed input_string
+Server->Client: send reversed input_string(UDP)
 ```
 
 
