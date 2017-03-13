@@ -26,8 +26,6 @@ to run client, call: ./client <server_address> <n_port> <req_code> <input_string
 the <req_code> must same as the server.
 
 
-build and test on linux.student.cs.uwaterloo.ca
-
 GNU Make 3.81
 javac 1.8.0_91
 
