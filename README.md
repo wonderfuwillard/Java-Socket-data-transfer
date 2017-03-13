@@ -14,3 +14,20 @@ Use Java Socket do some basic data transfer(TCP&amp;UDP).
 ||Send reversed input_string(UDP)|
 |Receive reversed input_string| |
 
+
+use `make` command to compile the program.
+
+to run server, call: ./server <req_code>
+<req_code> can be any integer, client will use the req_code to connect.
+server will print the <n_port> after run.
+
+to run client, call: ./client <server_address> <n_port> <req_code> <input_string>
+<n_port> is print on server
+the <req_code> must same as the server.
+
+
+build and test on linux.student.cs.uwaterloo.ca
+
+GNU Make 3.81
+javac 1.8.0_91
+
