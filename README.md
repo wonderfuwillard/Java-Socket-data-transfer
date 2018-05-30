@@ -2,6 +2,7 @@
 Use Java Socket do some basic data transfer(TCP&amp;UDP).
 
 ###Steps: 
+
 | Client | Server |
 | ------ | ------ |
 ||Creat TCP socket and print port #|
